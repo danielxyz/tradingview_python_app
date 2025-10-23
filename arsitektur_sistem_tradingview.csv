@@ -1,0 +1,15 @@
+﻿Layer,Component,Technology,Responsibility
+Presentation Layer,Chart Visualization (lightweight-charts-python),"lightweight-charts, HTML/JavaScript","Display candlestick, indicators, S/R levels"
+Presentation Layer,User Interface / Dashboard,Flask/FastAPI/Streamlit,"User interaction, parameter input"
+Presentation Layer,Event Markers & Alerts,Custom Event System,"Show buy/sell signals, price alerts"
+Business Logic Layer,Multi-Timeframe Analysis Engine,"pandas resample, custom logic",Analyze across weekly/daily/hourly timeframes
+Business Logic Layer,Technical Indicators Calculator,"pandas_ta, TA-Lib, numpy",Calculate SMA/EMA/RSI/MACD/Pivots
+Business Logic Layer,Support/Resistance Detector,"trendln, pytrendline, custom algo",Find strong support/resistance levels
+Business Logic Layer,Signal Generation Module,Rule-based / ML model,Generate buy/sell/hold signals
+Business Logic Layer,Risk Management Module,"Position tracking, stop-loss logic","Manage position size, risk limits"
+Data Layer,Data Acquisition Module (yfinance/API),"yfinance, ccxt, requests",Fetch historical OHLCV data from sources
+Data Layer,Data Storage (pandas DataFrame),"pandas, numpy, sqlite3",Store and process market data
+Data Layer,Real-time Data Handler (WebSocket),"websocket-client, asyncio",Stream live price updates
+Infrastructure Layer,Event-Driven Architecture,"Python Queue, threading",Trigger actions on events (new data/signal)
+Infrastructure Layer,Logging & Monitoring,"loguru, prometheus","Track performance, errors, system health"
+Infrastructure Layer,Deployment (Docker/Cloud),"Docker, AWS/GCP, systemd",Host and run application 24/7

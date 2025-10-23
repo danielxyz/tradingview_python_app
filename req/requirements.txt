@@ -1,0 +1,43 @@
+# ================================================================
+# REQUIREMENTS.TXT - Aplikasi TradingView Python 3.14
+# ================================================================
+# Install dengan: pip install -r requirements.txt
+# ================================================================
+
+# Data Acquisition
+yfinance>=0.2.49
+requests>=2.32.0
+ccxt>=4.4.0
+
+# Data Processing
+pandas>=2.2.0
+numpy>=1.26.0
+
+# Technical Analysis
+pandas-ta>=0.3.14b
+TA-Lib>=0.4.32
+
+# Chart Visualization
+lightweight-charts>=2.0.0
+
+# Support/Resistance Detection
+trendln>=0.4.0
+
+# Async & Real-time
+websocket-client>=1.8.0
+aiohttp>=3.10.0
+
+# Utility
+python-dateutil>=2.9.0
+pytz>=2024.1
+
+# Logging
+loguru>=0.7.0
+
+# Testing (Optional)
+pytest>=8.3.0
+backtesting>=0.3.3
+
+# Web Framework (Optional - untuk dashboard)
+flask>=3.0.0
+streamlit>=1.39.0
